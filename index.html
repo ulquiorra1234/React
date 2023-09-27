@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
@@ -19,14 +20,14 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 column-gap-5 ">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 column-gap-5  ">
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Dropdown
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#"> 
+                      <li><a class="dropdown-item "  href="#"> 
                         
                         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
                         <g clip-path="url(#clip0_42_609)">
@@ -37,11 +38,11 @@
                         <rect width="22" height="20" fill="white"/>
                         </clipPath>
                         </defs>
-                        </svg>      Action</a></li>
+                        </svg>            Action</a></li>
 
 
 
-                      <li><a class="dropdown-item" href="#">
+                      <li><a class="dropdown-item " href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                             <g clip-path="url(#clip0_42_611)">
                             <path d="M13.3333 13.3333C13.3333 12.4125 10.7216 11.6666 7.49998 11.6666M13.3333 13.3333C13.3333 14.2541 10.7216 15 7.49998 15C4.27831 15 1.66665 14.2541 1.66665 13.3333M13.3333 13.3333V17.4475C13.3333 18.3966 10.7216 19.1666 7.49998 19.1666C4.27831 19.1666 1.66665 18.3975 1.66665 17.4475V13.3333M13.3333 13.3333C16.52 13.3333 19.1666 12.5108 19.1666 11.6666V3.33329M7.49998 11.6666C4.27831 11.6666 1.66665 12.4125 1.66665 13.3333M7.49998 11.6666C3.81831 11.6666 0.833313 10.8441 0.833313 9.99996V5.83329M7.49998 4.16663C3.81831 4.16663 0.833313 4.91246 0.833313 5.83329M0.833313 5.83329C0.833313 6.75413 3.81831 7.49996 7.49998 7.49996C7.49998 8.34413 10.2108 9.16663 13.3975 9.16663C16.5833 9.16663 19.1666 8.34413 19.1666 7.49996M19.1666 3.33329C19.1666 2.41246 16.5833 1.66663 13.3975 1.66663C10.2108 1.66663 7.62831 2.41246 7.62831 3.33329M19.1666 3.33329C19.1666 4.25413 16.5833 4.99996 13.3975 4.99996C10.2116 4.99996 7.62831 4.25413 7.62831 3.33329M7.62831 3.33329V11.805" stroke="black" stroke-width="2"/>
@@ -56,7 +57,7 @@
 
 
 
-                      <li><a class="dropdown-item" href="#">
+                      <li><a class="dropdown-item " href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                             <g clip-path="url(#clip0_42_613)">
                               <path d="M4.16669 6.66663C4.82973 6.66663 5.46561 6.40323 5.93445 5.93439C6.40329 5.46555 6.66669 4.82967 6.66669 4.16663C6.66669 3.50358 6.40329 2.8677 5.93445 2.39886C5.46561 1.93002 4.82973 1.66663 4.16669 1.66663C3.50365 1.66663 2.86776 1.93002 2.39892 2.39886C1.93008 2.8677 1.66669 3.50358 1.66669 4.16663C1.66669 4.82967 1.93008 5.46555 2.39892 5.93439C2.86776 6.40323 3.50365 6.66663 4.16669 6.66663Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -74,7 +75,7 @@
                         Another action</a></li>
 
 
-                      <li><a class="dropdown-item" href="#">
+                      <li><a class="dropdown-item " href="#">
 
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                             <g clip-path="url(#clip0_42_620)">
@@ -104,12 +105,55 @@
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              
+              <button class="btn px-3 py-2 discuss" type="submit" style=" color: white;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" >
+                <g clip-path="url(#clip0_2_23)">
+                <path d="M2.068 5.482L10.943 14.358C11.2056 14.6207 11.5562 14.7767 11.9272 14.7957C12.2981 14.8148 12.6629 14.6955 12.951 14.461L13.065 14.358L21.934 5.488C21.963 5.598 21.982 5.71 21.992 5.825L22 6V18C22.0002 18.5046 21.8096 18.9906 21.4665 19.3605C21.1234 19.7305 20.6532 19.9572 20.15 19.995L20 20H4C3.49542 20.0002 3.00943 19.8096 2.63945 19.4665C2.26947 19.1234 2.04284 18.6532 2.005 18.15L2 18V6C2 5.88 2.01 5.764 2.03 5.65L2.068 5.482ZM20 4C20.121 4 20.24 4.01 20.355 4.031L20.525 4.07L12.005 12.59L3.482 4.068C3.592 4.038 3.706 4.018 3.822 4.008L4 4H20Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_2_23">
+                <rect width="24" height="24" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg><span style="padding:5px ;">Let's Discuss</span></button>
             </form>
           </div>
         </div>
       </nav>
+
+
+
+      <!-- Main landing page -->
+
+
+      <div class="container mt-5">
+        <div class="row">
+          
+          <div class="col-lg-6  order-0" >
+            <p class="ok" style="font-size: 66px;font-weight: 200;word-wrap:normal;">
+              Your Gateway to <span class="success-grad" >Success</span> with Data-Driven Excellence and Afforadability
+            </p>
+
+            <button class="mt-5 btn bg-black explore"><a href="">Explore </a></button>
+
+
+
+
+          </div>
+          
+
+
+          <div class="col-lg-6">
+
+
+          </div>
+        </div>
+        
+      </div>
+
+
+
 
 
 
