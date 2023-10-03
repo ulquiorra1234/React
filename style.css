@@ -24,8 +24,36 @@ li {
 } */
 
 
+.ok {
+  font-size: 57px;
+  font-weight: 200;
+  word-wrap: normal;
+  line-height: 70px;
+}
 
+@media (max-width:280px){
+  .ok{
+    font-size:32px;
+    line-height: 40px;
+  }
+}
+
+@media  screen and (min-width: 281px) and (max-width: 520px){
+  .ok{
+    font-size:40px;
+    line-height: 50px;
+    /* background-color:red; */
+  }
+}
+
+
+@media (max-width:964px){
+  .explore{
+    display: none;
+  }
+}
 .success-grad {
+
   font-weight: 700;
   background: linear-gradient(271deg, #65CBF3 35.2%, #661CFC 76.69%, #9365FE 99.35%);
   background-clip: text;
@@ -36,14 +64,15 @@ li {
 
 .explore {
   /* padding: 10px 200px; */
-  border-radius: 15px;
+  border-radius: 17px;
+  padding: 8px 40px;
 }
 
 .explore>a {
   text-decoration: none;
   color: #FFF;
   font-family: GD Sherpa;
-  font-size: 2rem;
+  font-size: 17px;
 
   font-weight: 400;
 }
@@ -125,11 +154,11 @@ li {
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 700;
-  
+
   /* 0px */
 }
 
-.emp-grad{
+.emp-grad {
   background: linear-gradient(271deg, #65CBF3 9.37%, #661CFC 80.76%, #9365FE 99.73%, #BEACFF 0.2%);
   background-clip: text;
   -webkit-background-clip: text;
