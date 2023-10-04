@@ -134,7 +134,7 @@ li {
   color: #545454;
   text-align: center;
   font-family: Kamerik 105 Cyrillic;
-  font-size: 50px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 700;
 
@@ -232,19 +232,100 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 
-.item{
+/* .item{
   background-color: #f3f3f3;
   height:350px;
   text-align: right;
   border-radius: 15px;
-  /* margin: 0 25px; */
+  position: relative;
+  width: 100%;
+} */
+
+
+
+
+/* .item:hover .item-grad{
+  position: absolute;  
+  animation-name: cardHover;
+  animation-duration: 1.8s;
+  animation-iteration-count: 1;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+} */
+
+.item {
+  position: relative;
+  overflow: hidden;
+  height: 350px;
+  background-color: #f3f3f3;
+  width: 100%;
+  border-radius: 15px;
+  /* z-index: 1; */
 }
+
 
 .item h4{
   font-size: 90px;
   color: #7e7e7e;
-  margin-right: 18px;
+  margin: 28px 18px;
+  z-index: 3;
+  
 }
+
+.item p{
+  text-align: left;
+  width: 80%;
+  margin-top: 70px;
+  margin-left: 42px;
+  /* text-align: ; */
+  font-size: 30px;
+  line-height: 34px;
+  font-weight:700;
+  
+  
+}
+/* 
+.item h4,p{
+  z-index: 3;
+} */
+
+
+.item-grad {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 0;
+  width: 0;
+  opacity: 0;
+  background: linear-gradient(141deg, #661CFC 0%, #9747FF 39.07%, #68E1FD 77.2%, #661CFC 112.64%) ;
+  transition: all 0.3s ease-in-out;
+  /* z-index: 1  ; */
+  color: white;
+
+  
+}
+
+.item-grad h4{
+  color: white;
+}
+
+.item:hover .item-text{
+  opacity: 0;
+}
+
+
+
+.item:hover .item-grad {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  
+}
+
+/* .item-grad{
+  
+} */
 
 .owl-dots{
   display: none;
@@ -316,6 +397,14 @@ background-clip: text;
   .blank{
     height: 230px;
   }
+
+  .item h4{
+    font-size:80px ;
+  }
+
+  .item p{
+    font-size: 30px;
+  }
 }
 
 @media screen and (min-width: 281px) and (max-width: 520px) {
@@ -383,6 +472,15 @@ background-clip: text;
 
   .great{
     font-size: 18px;
+  }
+
+  .item h4{
+    font-size:60px ;
+  }
+
+  .item p{
+    font-size: 25px;
+    margin-left: 20px;
   }
 
 }
