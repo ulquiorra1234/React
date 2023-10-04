@@ -188,6 +188,154 @@ li {
   text-align: center;
 }
 
+
+.container1 {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.allcard{
+  display: flex;
+  justify-content: space-around;
+}
+.cardone {
+  position: relative;
+  width: 50%;
+}
+.inone {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlayone {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #9747FF;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  border-radius: 20px;
+}
+.cardone:hover .overlayone {
+  height: 100%;
+}
+.cardtwo {
+  position: relative;
+  width: 50%;
+}
+.intwo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlaytwo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #9747FF;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  border-radius: 20px;
+}
+.cardtwo:hover .overlaytwo {
+  height: 100%;
+}
+.cardthree {
+  position: relative;
+  width: 50%;
+}
+.inthree {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlaythree {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #9747FF;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  border-radius: 20px;
+}
+.cardthree:hover .overlaythree {
+  height: 100%;
+}
+.textin{
+  background-color: #9747FF;
+  font-size: 12px;
+  padding: 0px 45px;
+  padding-top: 45px;
+  color: white;
+}
+.texttwo{
+  background-color: #9747FF;
+  font-size: 12px;
+  padding: 0px 45px;
+  padding-top: 60px;
+  color: white;
+}
+.textthree{
+  background-color: #9747FF;
+  font-size: 12px;
+  padding: 0px 40px;
+  padding-top:25px;
+  color: white;
+}
+.badidiv{
+  height: 700px;
+  margin-top:100px;
+}
+.indivtext{
+  margin-top: 100px;
+}
+
+
+
+
+
+
+
 .video-con {
   background: #9747FF;
   height: 820px;
