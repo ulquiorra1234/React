@@ -10,6 +10,19 @@ li {
   word-spacing: 2px;
 }
 
+.discuss2 {
+  background: linear-gradient(95deg, #65CBF3 6.5%, #661CFC 48.41%, #9365FE 79.63%, #BEACFF 97.32%);
+  box-shadow: 0px 4px 12px 0px rgba(101, 203, 243, 0.51);
+  display: none;
+  word-spacing: 2px;
+}
+
+#but {
+  margin-top: 0px;
+  display: none;
+  padding: 12px 65px;
+}
+
 /* .dropdown-menu:hover{
     background-color: white;
 
@@ -25,7 +38,7 @@ li {
 
 
 .ok {
-  font-size: 57px;
+  font-size: 64px;
   font-weight: 200;
   word-wrap: normal;
   line-height: 70px;
@@ -72,19 +85,7 @@ li {
   -webkit-text-fill-color: transparent;
 }
 
-.carousel {
-  scroll-snap-type: x mandatory;
-  scroll-padding: 0px 24px;
-  display: flex;
-  width: 550px;
-  overflow-x: scroll;
-}
 
-.carousel .item {
-  scroll-snap-align: start;
-  padding: 0px 20px;
-  list-style: none;
-}
 
 @keyframes slide {
   from {
@@ -133,11 +134,11 @@ li {
   color: #545454;
   text-align: center;
   font-family: Kamerik 105 Cyrillic;
-  font-size: 2.5rem;
+  font-size: 50px;
   font-style: normal;
   font-weight: 700;
 
-  /* 0px */
+
 }
 
 .emp-grad {
@@ -187,50 +188,142 @@ li {
   text-align: center;
 }
 
-
-@media (max-width:280px){
-  .ok{
-    font-size:32px;
-    line-height: 40px;
-  }
-
-  .trust{
-    font-size: 20px;
-    /* background-color: red; */
-  }
+.video-con {
+  background: #9747FF;
+  height: 820px;
 }
 
-@media  screen and (min-width: 281px) and (max-width: 520px){
-  .ok{
-    font-size:35px;
+.content {
+  padding: 75px 0;
+}
+
+.vid {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.blank{
+  height: 600px;
+  width: 80%;
+}
+
+
+
+@media screen and (min-width: 281px) and (max-width: 520px) {
+  .ok {
+    font-size: 35px;
     line-height: 50px;
     /* background-color:red; */
   }
 
-  .trust{
+  .trust {
     font-size: 27px;
     /* background-color: red; */
   }
- 
+
+  .logos-slide img {
+    height: 40px;
+    margin: 0 15px;
+  }
 }
 
 
-@media (max-width:964px){
+@media (max-width:995px) {
 
-  .ok{
+  .ok {
     margin-top: 50px;
 
   }
 
-  .explore{
+  .explore {
     display: none;
   }
+
+  #but {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .empower {
+    font-size: 35px;
+    
+  }
+
+  .video-con{
+    height: 580px;
+  }
+
+  .content{
+    padding: 45px 0;
+  }
+  
+
+  .blank{
+    height: 360px;
+  }
+
 }
 
 
-@media(max-width:578px){
-  .ok{
+@media(max-width:578px) {
+  .ok {
     margin-top: 0px;
 
   }
+
+  .empower {
+    font-size: 22px;
+  }
+
+  .video-con{
+    height: 420px;
+  }
+
+  .content{
+    padding: 25px 0;
+  }
+
+  .vid{
+    font-size: 22px;
+  }
+
+  .blank{
+    height: 230px;
+  }
+}
+
+@media (max-width:280px) {
+  .ok {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .trust {
+    font-size: 20px;
+    /* background-color: red; */
+  }
+
+  .logos-slide img {
+    height: 30px;
+    margin: 0 10px;
+  }
+
+  .empower {
+    font-size: 18px;
+  }
+
+  .video-con{
+    height: 360px;
+  }
+
+  .vid {
+    font-size: 18px;
+  }
+
+  .blank{
+    height: 180px;
+  }
+
 }
