@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "GD Sherpa Regular";
+  src: url("https://db.onlinewebfonts.com/t/0aee6008b82cde991ec28387169bb13e.eot");
+  src: url("https://db.onlinewebfonts.com/t/0aee6008b82cde991ec28387169bb13e.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/0aee6008b82cde991ec28387169bb13e.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/0aee6008b82cde991ec28387169bb13e.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/0aee6008b82cde991ec28387169bb13e.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/0aee6008b82cde991ec28387169bb13e.svg#GD Sherpa Regular")format("svg");
+}
+
+@import url(https://db.onlinewebfonts.com/c/493cdd3ed2b386cc9f4769df5ddf17a3?family=Kamerik+105+Cyrillic+W05+Book);
+
 li {
   /* background-color: red; */
   padding: 5px 5px
@@ -70,7 +82,7 @@ li {
 .explore>a {
   text-decoration: none;
   color: #FFF;
-  font-family: GD Sherpa;
+  font-family: GD Sherpa Regular;
   font-size: 17px;
 
   font-weight: 400;
@@ -165,15 +177,11 @@ li {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  background-color: #008cba;
   overflow: hidden;
   width: 100%;
   height: 0;
-  transition: .5s ease;
-}
-
-.container1:hover .overlay {
-  height: 100%;
+  transition: 0.5s ease;
 }
 
 .text {
@@ -188,147 +196,240 @@ li {
   text-align: center;
 }
 
-
-.container1 {
-  position: relative;
-  width: 50%;
+.h-chos{
+  font-size:40px;
 }
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
+.choose-us {
+  background: linear-gradient(93deg, #9747FF 21.23%, #661CFC 36.97%, #BEACFF 52.13%, #68E1FD 64.04%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+
 }
 
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
-}
-
-
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-.allcard{
+.allcard {
   display: flex;
   justify-content: space-around;
 }
+
 .cardone {
   position: relative;
   width: 50%;
 }
+
 .inone {
   display: block;
   width: 100%;
   height: auto;
 }
+
 .overlayone {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #9747FF;
+  background-color: #9747ff;
   overflow: hidden;
   width: 100%;
   height: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   border-radius: 20px;
 }
+
 .cardone:hover .overlayone {
   height: 100%;
 }
+
 .cardtwo {
   position: relative;
   width: 50%;
 }
+
 .intwo {
   display: block;
   width: 100%;
   height: auto;
 }
+
 .overlaytwo {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #9747FF;
+  background-color: #9747ff;
   overflow: hidden;
   width: 100%;
   height: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   border-radius: 20px;
 }
+
 .cardtwo:hover .overlaytwo {
   height: 100%;
 }
+
 .cardthree {
   position: relative;
   width: 50%;
 }
+
 .inthree {
   display: block;
   width: 100%;
   height: auto;
 }
+
 .overlaythree {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #9747FF;
+  background-color: #9747ff;
   overflow: hidden;
   width: 100%;
   height: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   border-radius: 20px;
 }
+
 .cardthree:hover .overlaythree {
   height: 100%;
 }
-.textin{
-  background-color: #9747FF;
+
+.textin {
+  background-color: #9747ff;
   font-size: 12px;
   padding: 0px 45px;
   padding-top: 45px;
   color: white;
 }
-.texttwo{
-  background-color: #9747FF;
+
+.texttwo {
+  background-color: #9747ff;
   font-size: 12px;
   padding: 0px 45px;
   padding-top: 60px;
   color: white;
 }
-.textthree{
-  background-color: #9747FF;
+
+.textthree {
+  background-color: #9747ff;
   font-size: 12px;
   padding: 0px 40px;
-  padding-top:25px;
+  padding-top: 25px;
   color: white;
 }
-.badidiv{
-  height: 700px;
-  margin-top:100px;
-}
-.indivtext{
+
+.badidiv {
   margin-top: 100px;
 }
+
+.indivtext {
+  margin-top: 100px;
+}
+
+.uppercardpart {
+  margin-top: 100px;
+}
+
+.textlatest {
+  color: #545454;
+  text-align: center;
+  font-family: Kamerik 105 Cyrillic;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140.3%;
+  /* 89.792px */
+}
+
+.textlatestsmall {
+  margin-top: 10px;
+  /* width: 848px; */
+  color: #7a7a7a;
+  text-align: center;
+  font-family: GD Sherpa Regular;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.3%;
+  /* 33.672px */
+}
+
+.cardpartwo {
+  height: 800px;
+}
+
+.cardtextin {
+  margin-left: 10px;
+  color: #545454;
+  font-family: GD Sherpa Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.3%;
+  /* 22.448px */
+}
+
+.headingcardown {
+  color: #1e1e1e;
+  font-family: Kamerik 105 Cyrillic;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140.3%;
+  /* 33.672px */
+  margin-bottom: 20px;
+}
+
+.innerparacard {
+  color: #661cfc;
+  font-family: GD Sherpa Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.3%;
+  /* 22.448px */
+}
+
+.downviewbox {
+  margin-top: 40px;
+  display: inline-flex;
+  padding: 0px 10px;
+  border-radius: 10px;
+  background: #e7dbff;
+  color: #661cfc;
+  font-family: GD Sherpa Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.footertext {
+  color: inherit;
+  text-decoration: none;
+  color: #989898;
+  font-family: GD Sherpa Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.3%;
+  /* 22.448px */
+}
+
+.lasttext {
+  color: #FFF;
+  text-align: center;
+  font-family: GD Sherpa Regular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.3%;
+  /* 19.642px */
+}
+
 
 
 
@@ -352,32 +453,37 @@ li {
   font-weight: 700;
 }
 
-.blank{
+.blank {
   height: 600px;
   width: 80%;
 }
 
 
-.process{
+.process {
   color: #545454;
-/* text-align: center; */
-font-family: Kamerik 105 Cyrillic;
-font-size: 64px;
-font-style: normal;
-font-weight: 700;
-/* line-height: 140.3% */
+  /* text-align: center; */
+  font-family: Kamerik 105 Cyrillic;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 140.3% */
 }
 
-.great{
+.great {
   font-family: Kamerik 105 Cyrillic;
-font-size: 32px;
-font-style: normal;
-font-weight: 700;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
 
-  background:  linear-gradient(141deg, #661CFC 0%, #9747FF 39.07%, #68E1FD 77.2%, #661CFC 112.64%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background: linear-gradient(141deg, #661CFC 0%, #9747FF 39.07%, #68E1FD 77.2%, #661CFC 112.64%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.hidden-div {
+  display: block;
 }
 
 /* .item{
@@ -413,15 +519,15 @@ background-clip: text;
 }
 
 
-.item h4{
+.item h4 {
   font-size: 90px;
   color: #7e7e7e;
   margin: 28px 18px;
   z-index: 3;
-  
+
 }
 
-.item p{
+.item p {
   text-align: left;
   width: 80%;
   margin-top: 70px;
@@ -429,10 +535,11 @@ background-clip: text;
   /* text-align: ; */
   font-size: 30px;
   line-height: 34px;
-  font-weight:700;
-  
-  
+  font-weight: 700;
+
+
 }
+
 /* 
 .item h4,p{
   z-index: 3;
@@ -446,19 +553,19 @@ background-clip: text;
   height: 0;
   width: 0;
   opacity: 0;
-  background: linear-gradient(141deg, #661CFC 0%, #9747FF 39.07%, #68E1FD 77.2%, #661CFC 112.64%) ;
+  background: linear-gradient(141deg, #661CFC 0%, #9747FF 39.07%, #68E1FD 77.2%, #661CFC 112.64%);
   transition: all 0.3s ease-in-out;
   /* z-index: 1  ; */
   color: white;
 
-  
+
 }
 
-.item-grad h4{
+.item-grad h4 {
   color: white;
 }
 
-.item:hover .item-text{
+.item:hover .item-text {
   opacity: 0;
 }
 
@@ -468,18 +575,18 @@ background-clip: text;
   height: 100%;
   width: 100%;
   opacity: 1;
-  
+
 }
 
 /* .item-grad{
   
 } */
 
-.owl-dots{
+.owl-dots {
   display: none;
 }
 
-.owl-nav{
+.owl-nav {
   display: none;
 }
 
@@ -501,20 +608,24 @@ background-clip: text;
 
   .empower {
     font-size: 35px;
-    
+
   }
 
-  .video-con{
+  .video-con {
     height: 580px;
   }
 
-  .content{
+  .content {
     padding: 45px 0;
   }
-  
 
-  .blank{
+
+  .blank {
     height: 360px;
+  }
+
+  .hidden-div {
+    display: none;
   }
 
 }
@@ -530,27 +641,27 @@ background-clip: text;
     font-size: 22px;
   }
 
-  .video-con{
+  .video-con {
     height: 420px;
   }
 
-  .content{
+  .content {
     padding: 25px 0;
   }
 
-  .vid{
+  .vid {
     font-size: 22px;
   }
 
-  .blank{
+  .blank {
     height: 230px;
   }
 
-  .item h4{
-    font-size:80px ;
+  .item h4 {
+    font-size: 80px;
   }
 
-  .item p{
+  .item p {
     font-size: 30px;
   }
 }
@@ -572,11 +683,11 @@ background-clip: text;
     margin: 0 15px;
   }
 
-  .process{
+  .process {
     font-size: 32px;
   }
 
-  .great{
+  .great {
     font-size: 24px;
   }
 }
@@ -602,7 +713,7 @@ background-clip: text;
     font-size: 18px;
   }
 
-  .video-con{
+  .video-con {
     height: 360px;
   }
 
@@ -610,23 +721,23 @@ background-clip: text;
     font-size: 18px;
   }
 
-  .blank{
+  .blank {
     height: 180px;
   }
 
-  .process{
+  .process {
     font-size: 26px;
   }
 
-  .great{
+  .great {
     font-size: 18px;
   }
 
-  .item h4{
-    font-size:60px ;
+  .item h4 {
+    font-size: 60px;
   }
 
-  .item p{
+  .item p {
     font-size: 25px;
     margin-left: 20px;
   }
