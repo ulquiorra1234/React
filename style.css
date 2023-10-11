@@ -431,6 +431,16 @@ li {
 }
 
 
+.card-text{
+  background: linear-gradient(95deg, #661CFC 19.6%, #9747FF 38.95%, #9365FE 57.52%, #68E1FD 77.11%);
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              font-size: 32px;
+              font-style: normal;
+              font-weight: 700;
+}
+
 
 
 
@@ -540,6 +550,10 @@ li {
 
 }
 
+#oo{
+  font-size: 28px;
+  margin-top: 30px;
+}
 /* 
 .item h4,p{
   z-index: 3;
@@ -628,6 +642,11 @@ li {
     display: none;
   }
 
+  .h-chos{
+    font-size: 38px;
+    /* text-align: center; */
+  }
+
 }
 
 
@@ -664,6 +683,12 @@ li {
   .item p {
     font-size: 30px;
   }
+
+  .h-chos{
+    font-size: 28px;
+    text-align: center  ;
+    /* margin-right: ; */
+  }
 }
 
 @media screen and (min-width: 281px) and (max-width: 520px) {
@@ -689,6 +714,17 @@ li {
 
   .great {
     font-size: 24px;
+  }
+
+  .h-chos{
+    font-size: 26px;
+  }
+}
+
+
+@media(max-width:347px){
+  .card-text{
+    font-size:28px ;
   }
 }
 
@@ -738,8 +774,35 @@ li {
   }
 
   .item p {
-    font-size: 25px;
+    font-size: 22px;
     margin-left: 20px;
   }
 
+  #oo{
+    font-size: 22px;
+  }
+
+  .h-chos{
+    font-size: 22px;
+  }
+
+  .card-text{
+    font-size: 24px;
+  }
+
+  .textin{
+    font-size: 10px;
+    padding-top: 20px;
+    /* overflow-y:auto; */
+  }
+  
+  .texttwo{
+    font-size: 10.5px;
+    padding-top: 20px;
+  }
+  
+  .textthree{
+    font-size: 9px;
+    /* padding-top: ; */
+  }
 }
